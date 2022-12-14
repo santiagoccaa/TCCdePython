@@ -1,0 +1,76 @@
+:root {
+	--black-dark: #0D0D0D;
+	--black-medium: #393939;
+	--black-light: #4F4E4E;
+	--gray-light: #eaeaea;
+	--white: #f4fffd;
+}
+
+body {
+	font-size: 20px;
+	font-family: 'Dosis', sans-serif;
+}
+
+
+.subtitulo {
+	font-size: 20px;
+	color: var(--blue-dark);
+	font-weight: 700;
+	z-index: 2;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.subtitulo span {
+	background-color: var(--gray-light);
+	padding: 0 15px;
+	z-index: 99;
+	position: relative;
+}
+
+.subtitulo::after {
+	content: "";
+	display: inline-block;
+	height: 2px;
+	width: 100%;
+	background: var(--blue-dark);
+	position: relative;
+	top: -29px;
+	z-index: 1;
+}
+
+.nosotros.titulo {
+	width: 70%;
+	font-size: 44px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.salas {
+	background: var(--gray-light);
+	padding: 20px;
+	margin-bottom: 60px; 
+}
+
+.salas .titulo {
+	width: 70%;
+	font-size: 44px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.salas .salaimg{
+	position: relative;
+	width: 100%;
+}
+
+.enlace{
+	display: inline-block;
+	margin-top: 10px;
+	color: var(--blue-light);
+	font-weight: 700;
+	border-bottom: 1px solid transparent;
+	transition: .3s ease all;
+}
