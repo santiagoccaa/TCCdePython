@@ -1,5 +1,0 @@
-create database formulario;
-
-create table if not exists formulario1 (id AUTO_INCREMENT PRYMADY KEY, nombre VARCHAR(60), cantidad VARCHAR(60), marca VARCHAR(60));
-create table if not exists formulario2 (id AUTO_INCREMENT PRYMADY KEY, nombre VARCHAR(60), cantidad VARCHAR(60), marca VARCHAR(60));
-create table if not exists formulario3 (id AUTO_INCREMENT PRYMADY KEY, nombre VARCHAR(60), cantidad VARCHAR(60), marca VARCHAR(60));
